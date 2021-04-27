@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 10px 10px;
+}
+
+.header {
+  width: 100vw;
+}
+
+.canvas {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}

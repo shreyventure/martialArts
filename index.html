@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/lux/bootstrap.min.css"
+    />
+    <title>Game - Martial Arts</title>
+  </head>
+  <body>
+    <div class="header pt-3 d-inline-flex justify-content-center">
+      <h2>Welcome to School of Martial Arts!</h2>
+    </div>
+    <div class="canvas d-flex justify-space-around">
+      <canvas id="myCanvas" width="600" height="600"></canvas>
+    </div>
+
+    <div class="buttons d-flex justify-space-around">
+      <button id="kick" class="btn btn-success">Kick! (Down Arrow)</button>
+      <button id="punch" class="btn btn-danger">Punch! (Up Arrow)</button>
+      <button id="speed" class="btn btn-warning">Speed Up! (Space Bar)</button>
+      <button id="forward" class="btn btn-primary">
+        Forward! (Right Arrow)
+      </button>
+      <button id="backward" class="btn btn-secondary">
+        Backward! (Left Arrow)
+      </button>
+      <button id="block" class="btn btn-info">Block! (B)</button>
+    </div>
+  </body>
+  <script src="game.js"></script>
+</html>
